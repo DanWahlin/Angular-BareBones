@@ -1,7 +1,7 @@
 import { bootstrap } from 'angular2/platform/browser';
 import { bind, enableProdMode, provide } from 'angular2/core';
 
-import { APP_PROVIDERS } from './shared/app.providers';
+import { APP_PROVIDERS } from './app.providers';
 import { AppComponent } from './app.component';
 
 //enableProdMode(); //Uncomment for production
