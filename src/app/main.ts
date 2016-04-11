@@ -1,12 +1,11 @@
 import { bootstrap } from 'angular2/platform/browser';
 import { bind, enableProdMode, provide } from 'angular2/core';
 
-import { APP_PROVIDERS } from './app.providers';
 import { AppComponent } from './app.component';
 
 //enableProdMode(); //Uncomment for production
 
-bootstrap(AppComponent, [ APP_PROVIDERS ])
+bootstrap(AppComponent)
   .then(
     success => console.log('AppComponent bootstrapped!'),
     error => console.log(error)
