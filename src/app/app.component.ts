@@ -12,8 +12,8 @@ import { APP_PROVIDERS } from './app.providers';
   providers: [ APP_PROVIDERS ]
 })
 @RouteConfig([
-  { path: '/', as: 'Home', component: HomeComponent, useAsDefault: true },
-  { path: '/feature', as: 'Feature', component: FeatureComponent }
+  { path: '/', name: 'Home', component: HomeComponent, useAsDefault: true },
+  { path: '/feature', name: 'Feature', component: FeatureComponent }
 ])
 export class AppComponent {
   
