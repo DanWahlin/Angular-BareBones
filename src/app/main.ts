@@ -1,5 +1,5 @@
-import { bootstrap } from 'angular2/platform/browser';
-import { bind, enableProdMode, provide } from 'angular2/core';
+import { bootstrap } from '@angular/platform-browser-dynamic';
+import { bind, enableProdMode, provide } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
