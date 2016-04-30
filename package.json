@@ -2,6 +2,10 @@
   "name": "angular2-barebones",
   "author": "Dan Wahlin",
   "version": "0.8.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danwahlin/angular2-barebones"
+  },
   "scripts": {
     "postinstall": "npm run typings install",
     "build": "tsc",
