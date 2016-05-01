@@ -4,8 +4,9 @@ import { RouterLink } from '@angular/router';
 import { DataService } from '../shared/data.service';
 
 @Component({
+    moduleId: __moduleName,
     selector: 'home',
-    templateUrl: 'app/home/home.component.html',
+    templateUrl: 'home.component.html',
     directives: [ RouterLink ],
     providers: [ DataService ]
 })
