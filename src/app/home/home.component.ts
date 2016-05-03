@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { ROUTER_DIRECTIVES } from '@angular/router';
 
 import { DataService } from '../shared/data.service';
 
 @Component({
-    moduleId: __moduleName,
+    moduleId: module.id,
     selector: 'home',
     templateUrl: 'home.component.html',
-    directives: [ RouterLink ],
+    directives: [ ROUTER_DIRECTIVES ],
     providers: [ DataService ]
 })
 export class HomeComponent implements OnInit {
