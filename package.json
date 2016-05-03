@@ -12,8 +12,8 @@
     "build:w": "tsc --watch",
     "bundle": "node bundle.js",
     "bundle:prod": "node bundle.js --prod",
-    "live": "live-server --open=src --quiet",
-    "start": "concurrently \"npm run build:w\" \"npm run live\" ",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run build:w\" \"npm run lite\" ",
     "typings": "typings"
   },
   "license": "ISC",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
-    "live-server": "^1.0.0",
+    "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
     "typings":"^0.8.1",
     "systemjs-builder": "^0.15.15",

@@ -10,5 +10,5 @@ export const APP_PROVIDERS = [
     FORM_PROVIDERS,
     ROUTER_PROVIDERS,
     HTTP_PROVIDERS,
-    bind(LocationStrategy).toClass(HashLocationStrategy)
+    //bind(LocationStrategy).toClass(HashLocationStrategy)
 ];

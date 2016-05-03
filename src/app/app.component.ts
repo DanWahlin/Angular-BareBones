@@ -18,7 +18,7 @@ import { APP_PROVIDERS } from './app.providers';
 export class AppComponent {
   
   constructor(private router: Router) {
-    router.navigate(['/']);
+
   }
   
 }
