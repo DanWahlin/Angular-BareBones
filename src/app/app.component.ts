@@ -13,7 +13,8 @@ import { APP_PROVIDERS } from './app.providers';
 })
 @Routes([
   { path: '/', component: HomeComponent },
-  { path: '/feature', component: FeatureComponent }
+  { path: '/feature', component: FeatureComponent },
+  { path: '*', component: HomeComponent }
 ])
 export class AppComponent {
   
