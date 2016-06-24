@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ROUTER_DIRECTIVES, Router } from '@angular/router';
+import { ROUTER_DIRECTIVES } from '@angular/router';
 
 import { APP_PROVIDERS } from './app.providers';
 
