@@ -4,7 +4,8 @@ import { HomeComponent }     from './home/home.component';
 import { FeatureComponent }   from './feature/feature.component';
 
 const appRoutes = [
-  { path: '',  terminal: true, component: HomeComponent },
+  { path: '',  terminal: true, redirectTo: '/home' },
+  { path: 'home',  terminal: true, component: HomeComponent },
   { path: 'feature', component: FeatureComponent }
 ];
 
