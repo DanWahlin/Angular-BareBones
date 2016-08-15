@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ROUTER_DIRECTIVES } from '@angular/router';
 
 @Component({
-    moduleId: module.id,
+    moduleId: module.id, 
     selector: 'feature',
-    templateUrl: 'feature.component.html',
-    directives: [ ROUTER_DIRECTIVES ]
+    templateUrl: 'feature.component.html'
 })
 export class FeatureComponent implements OnInit {
 
