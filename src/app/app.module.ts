@@ -6,11 +6,11 @@ import { HttpModule} from '@angular/http';
 import { AppComponent }  from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FeatureComponent } from './feature/feature.component';
-import { routing } from './app.routing';
+import { APP_ROUTING } from './app.routing';
 import { DataService } from './shared/data.service';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, HttpModule, routing ],
+  imports:      [ BrowserModule, FormsModule, HttpModule, APP_ROUTING ],
   declarations: [ AppComponent, HomeComponent, FeatureComponent ],
   providers:    [ DataService ],
   bootstrap:    [ AppComponent ]

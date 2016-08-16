@@ -9,4 +9,4 @@ const APP_ROUTES: Routes = [
   { path: 'feature', component: FeatureComponent }
 ];
 
-export const routing = RouterModule.forRoot(APP_ROUTES);
+export const APP_ROUTING = RouterModule.forRoot(APP_ROUTES);
