@@ -6,9 +6,7 @@ import { DataService } from '../shared/data.service';
 @Component({
     moduleId: module.id,
     selector: 'home',
-    templateUrl: 'home.component.html',
-    directives: [ ROUTER_DIRECTIVES ],
-    providers: [ DataService ]
+    templateUrl: 'home.component.html'
 })
 export class HomeComponent implements OnInit {
     
