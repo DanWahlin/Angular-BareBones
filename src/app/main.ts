@@ -4,5 +4,5 @@ import { enableProdMode } from '@angular/core';
 
 //enableProdMode(); //Uncomment for production
 platformBrowserDynamic().bootstrapModule(AppModule)  
-  .then(success => console.log('App bootstrapped'))
-  .catch(err => console.error(err));
+  .then((success: any) => console.log('App bootstrapped'))
+  .catch((err: any) => console.error(err));
