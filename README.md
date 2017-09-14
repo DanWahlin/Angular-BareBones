@@ -18,7 +18,7 @@ Here's what is in the project:
 
 It's a minimal app intended to get you up and running quickly so the rest is up to you!
 
-If you're using VS Code, install my [Angular code snippets](https://blog.codewithdan.com/2016/08/30/angular-2-typescript-and-html-snippets-for-vs-code) 
+If you're using VS Code, install my [Angular code snippets](https://blog.codewithdan.com/2017/04/01/angular-2-typescript-and-html-snippets-for-vs-code/) 
 to simplify the process of writing Angular code. The code snippets make it easy
 to build Angular components, services, pipes, directives and more.
 
