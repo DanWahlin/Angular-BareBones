@@ -10,27 +10,13 @@
 <html>
 <head>
     <base href="/">
-    <title>Angular Bare Bones Projet</title>
+    <title>Angular Bare Bones Project</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Angular Bare Bones Starter">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="styles/styles.css" rel="stylesheet" />
-    
-    <!-- Polyfill(s) for older browsers -->
-    <script src="node_modules/core-js/client/shim.min.js"></script>
-
-    <script src="node_modules/zone.js/dist/zone.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-
-	<!-- remove for bundle usage -->
-	<script src="systemjs.config.js"></script>
-	<script>
-		System.import('app').catch(function(err){ console.error(err); });
-	</script>
-	<!-- remove for bundle usage -->
-    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/styles/styles.css" rel="stylesheet">
 </head>
 <body>
     <header class="navbar navbar-inner navbar-fixed-top">
@@ -42,9 +28,9 @@
     </header>
 
     <main class="container">
-        <app-component>
+        <app-root>
             Loading...
-        </app-component>
+        </app-root>
         <br /><br />
     </main>
 
