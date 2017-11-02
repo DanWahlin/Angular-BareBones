@@ -1,8 +1,7 @@
 # Angular and TypeScript Bare Bones Project
 
-The Bare Bones project is an Angular 2+ starter project that has the npm modules, 
-configuration, scripts, folders and routing in place to make getting started 
-with an Angular project easy!
+The Bare Bones project is an Angular starter project that has the npm modules, 
+configuration, scripts, folders and routing in place.
 
 Here's what is in the project:
 
@@ -14,7 +13,6 @@ Here's what is in the project:
 * A simple data service to provide data and show dependency injection
 * Routing between the homepage and the "feature"
 * Bootstrap for CSS
-* live-server used to launch the site and reload it as you make changes
 
 It's a minimal app intended to get you up and running quickly so the rest is up to you!
 
